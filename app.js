@@ -59,6 +59,6 @@ app.get('/',function(req,res){
 
 
 //Made change
-app.listen(5002,()=>{
+app.listen(port,()=>{
     console.log("Server Ready on 5002");
 });
