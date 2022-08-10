@@ -2,6 +2,7 @@ const express = require('express');
 const path = require ('path'); 
 const cors = require('cors');
 var bodyParser = require("body-parser");
+const port = process.env.PORT || "5002";
 
 const nav= [
     {
@@ -59,5 +60,5 @@ app.get('/',function(req,res){
 
 //Made change
 app.listen(5002,()=>{
-    console.log("Server Ready on 5000");
+    console.log("Server Ready on 5002");
 });
